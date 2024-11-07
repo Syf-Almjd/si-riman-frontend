@@ -8,15 +8,15 @@ import CloseRoundedIcon from '@mui/icons-material/CloseRounded';
 import DateRangeRoundedIcon from '@mui/icons-material/DateRangeRounded';
 
 //Styles
-import styles from "Styles/Blog/Dialogs.styles";
+import styles from "Styles/Product/Dialogs.styles";
 
-const Dialogs = ({ blog, handleClose }) => {
+const Dialogs = ({ product: product, handleClose }) => {
     return (
         <>
             <DialogTitle id="scroll-dialog-title">
                 <Stack direction="row">
                     <Typography variant="h6" component="h6" sx={{ flex: 1 }}>
-                        Blog Details
+                        Product Details
                     </Typography>
                     <ButtonBase onClick={handleClose} sx={styles.CloseBtn}>
                         <CloseRoundedIcon />
@@ -29,41 +29,41 @@ const Dialogs = ({ blog, handleClose }) => {
                     sx={{ color: "text.primary" }}
                 >
                     <Box sx={styles.Content}>
-                        <Box component="img" sx={styles.Image} src={blog.image} alt="Blog" />
+                        <Box component="img" sx={styles.Image} src={product.image} alt="Blog" />
                         <Box sx={styles.TopContainer}>
                             <Stack direction={{ lsm: "row", xxs: "column" }}>
                                 <Typography variant="body1" component="p" sx={styles.BlogInfo}>
-                                    {blog.userLink &&
-                                        <Link href={blog.userLink}>
+                                    {product.userLink &&
+                                        <Link href={product.userLink}>
                                             <a>
                                                 <AccountCircleOutlinedIcon />
-                                                {blog.user}
+                                                {product.user}
                                             </a>
                                         </Link>
                                     }
-                                    {!blog.userLink &&
+                                    {!product.userLink &&
                                         <>
                                             <AccountCircleOutlinedIcon />
-                                            {blog.user}
+                                            {product.user}
                                         </>
                                     }
                                 </Typography>
                                 <Typography variant="body1" component="p" sx={styles.BlogInfo}>
                                     <DateRangeRoundedIcon />
-                                    {blog.time}
+                                    {product.time}
                                 </Typography>
                                 <Typography variant="body1" component="p" sx={styles.BlogInfo}>
                                     <LocalOfferOutlinedIcon />
-                                    {blog.category}
+                                    {product.category}
                                 </Typography>
                             </Stack>
                             <Typography variant="h6" component="h6" sx={styles.BlogTitle}>
-                                {blog.title}
+                                {product.title}
                             </Typography>
                         </Box>
                     </Box>
                     <Typography variant="body1" component="p" sx={{ mt: { smd: "5em", lsm: "7em", sm: "1em" } }}>
-                        {blog.description}
+                        {product.description}
                     </Typography>
                 </DialogContentText>
             </DialogContent>

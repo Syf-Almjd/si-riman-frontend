@@ -9,12 +9,12 @@ import Myself from "Components/About/Myself";
 
 const About = () => {
     return (
-        <Container maxWidth={false} disableGutters as="section" sx={{ pt: "5em" }} id="about">
+        <Container maxWidth={false} disableGutters as="section" sx={{ pb: "5em" }} id="about">
             <SectionHeading
-                value1="We Provide Best Solutions"
-                value2="For Your Business"
+                value1="Service Richard Provides" 
                 border={true}
             />
+            
             <Solution />
             <Myself />
         </Container>

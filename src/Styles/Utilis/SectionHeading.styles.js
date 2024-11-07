@@ -1,3 +1,5 @@
+import { Padding } from "@mui/icons-material";
+
 const styles = {
     Heading: {
         width: "max-content",
@@ -12,7 +14,7 @@ const styles = {
         mx: "24%",
         borderWidth: "2px",
         borderColor: "primary.main",
-        mt: "5px"
+        mt: "20px"
     }
 };
 

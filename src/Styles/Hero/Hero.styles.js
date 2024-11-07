@@ -1,3 +1,5 @@
+import { RoundedCorner } from "@mui/icons-material";
+
 const styles = {
     Container: {
         pt: {
@@ -29,15 +31,16 @@ const styles = {
     },
     HeroImage: {
         position: "absolute",
+        borderRadius: "5%",
         right: {
-            lg: "2%",
+            lg: "10%",
             xxs: "0%"
         },
-        bottom: "0",
+        bottom: "15%",
         width: {
-            lg: "58%",
-            md: "70%",
-            smd: "65%",
+            lg: "38%",
+            md: "50%",
+            smd: "45%",
             xxs: "0%"
         },
         display: {

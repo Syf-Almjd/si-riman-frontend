@@ -13,7 +13,7 @@ const FooterFour = () => {
     return (
         <Box>
             <Typography variant="h6" component="h6" sx={styles.Title}>
-                Our Members
+                Richard Team
             </Typography>
             <Box>
                 <Grid container spacing={2}>

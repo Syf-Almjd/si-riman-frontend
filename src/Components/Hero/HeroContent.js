@@ -11,23 +11,23 @@ const HeroContent = () => {
     return (
         <Box sx={styles.Container}>
             <Typography variant="h2" component="h2" sx={styles.Title}>
-                We are <br />
-                Code Station21
+                I am <br />
+                Richard Tag
             </Typography>
             <Typography variant="h6" component="h6" sx={styles.Slogan}>
-                Your Dream, We Build
+                Your Beauty, My Job & Passion
             </Typography>
             <Typography variant="body1" component="p" sx={styles.Description}>
-                Where an idea turns into a project. Help your startups, business, and ideas to grow more and solve the problem with the power of code.
+            Helping you glow with confidence. Let’s enhance your beauty, nourish your skin, and bring out the best in you.
             </Typography>
             <Link
-                to="portfolio"
+                to="blog"
                 spy={true}
                 smooth={true}
                 duration={500}
             >
                 <ButtonBase sx={styles.Button}>
-                    See Projects
+                    See Products
                     <ArrowForwardTwoToneIcon />
                 </ButtonBase>
             </Link>

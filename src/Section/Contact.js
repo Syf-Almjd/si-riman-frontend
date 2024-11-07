@@ -13,8 +13,8 @@ const Contact = () => {
     return (
         <Container maxWidth={false} disableGutters as="section" sx={styles.Container} id="contact">
             <SectionHeading
-                value1="Do You Have Any Projects"
-                value2="Plz Say Hello"
+                value1="Do You Want Consultation?"
+                value2="Contact Us"
                 border={true}
             />
             <Form />

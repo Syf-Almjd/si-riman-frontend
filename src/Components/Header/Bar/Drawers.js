@@ -29,7 +29,14 @@ const Drawers = ({ toggleDrawer }) => {
                 </ButtonBase>
             </Stack>
             <Typography variant="body1" component="p" sx={styles.Description}>
-                We are codestation21, a group of people passionate about solving problems with the power of code. We have more than 4+ professional experience in different domains and clients. Our problem-solving skills help us to create a great product for you. We are always available to help your dream projects come true.
+                Let us help you start your beauty journey.
+                <br/>
+
+Cosmetics and personal care items include foundation and mascara, face and body lotion, soaps and shampoos, hair styling products, deodorant, toothpaste, hair dyes, and nail polish.
+<br/>
+They are considered safe. But that doesn&apos;t mean that there aren&apos;t risks linked to their use, particularly if you don&apos;t use them correctly.
+
+
             </Typography>
             <Box sx={styles.Navs}>
                 {Navs &&
@@ -56,7 +63,7 @@ const Drawers = ({ toggleDrawer }) => {
                 </Box>
                 <Box>
                     <Typography variant="body1" component="p">
-                        171/5, Borhanpur Lane, 6 Hazaribagh Road, Dhaka 1211
+                        Kuala Lumpur, Malaysia.
                     </Typography>
                 </Box>
             </Stack>
@@ -68,7 +75,7 @@ const Drawers = ({ toggleDrawer }) => {
                     <Link href="mailto:info@codestation21.com">
                         <a>
                             <Typography variant="body1" component="p">
-                                info@codestation21.com
+                                info@rechard.com
                             </Typography>
                         </a>
                     </Link>
@@ -79,10 +86,10 @@ const Drawers = ({ toggleDrawer }) => {
                     <PhoneIcon />
                 </Box>
                 <Box>
-                    <Link href="tel:+8801552938771">
+                    <Link href="tel:+601133445566">
                         <a>
                             <Typography variant="body1" component="p">
-                                +880 1552-938771
+                                +60 1152-4523
                             </Typography>
                         </a>
                     </Link>

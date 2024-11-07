@@ -21,7 +21,7 @@ const Bar = () => {
     };
     return (
         <Stack direction="row" sx={{ justifyContent: "right" }}>
-            <Link
+            {/* <Link
                 to="portfolio"
                 spy={true}
                 smooth={true}
@@ -31,7 +31,7 @@ const Bar = () => {
                     See Projects
                     <ArrowForwardTwoToneIcon />
                 </ButtonBase>
-            </Link>
+            </Link> */}
             <ButtonBase sx={styles.ToogleButton} onClick={toggleDrawer(true)} className={drawer ? "active" : ""}>
                 <Box className="ripple1"></Box>
                 <Box className="ripple2"></Box>

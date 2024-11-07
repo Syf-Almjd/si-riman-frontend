@@ -1,10 +1,10 @@
 import { Box, Grid, Divider } from "@mui/material";
 
 // Data
-import Companys from "Data/Blog/Company.data";
+import Companys from "Data/Product/Company.data";
 
 //Styles
-import styles from "Styles/Blog/Company.styles";
+import styles from "Styles/Product/Company.styles";
 
 const Company = () => {
     return (

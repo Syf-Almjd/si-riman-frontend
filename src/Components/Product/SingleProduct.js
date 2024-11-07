@@ -6,15 +6,15 @@ import { ClendarIcon } from "Utilis/Icons";
 import ArrowForwardTwoToneIcon from '@mui/icons-material/ArrowForwardTwoTone';
 
 //Components
-import Dialogs from "./SingleBlog/Dialogs";
+import Dialogs from "./SingleProduct/Dialogs";
 
 //Data
-import Blogs from "Data/Blog/Blogs.data";
+import Products from "Data/Product/Products.data";
 
 //Styles
-import styles from "Styles/Blog/SingleBlog.styles";
+import styles from "Styles/Product/SingleProduct.styles";
 
-const SingleBlog = () => {
+const SingleProduct = () => {
     const [open, setOpen] = useState(false);
     const handleClickOpen = (index) => () => {
         setOpen(index);
@@ -32,17 +32,17 @@ const SingleBlog = () => {
     return (
         <Box sx={{ mt: "4rem", mb: "5.5em" }}>
             <Grid container spacing={4}>
-                {Blogs &&
-                    Blogs.map((blog, i) => (
+                {Products &&
+                    Products.map((product, i) => (
                         <Grid item md={4} lsm={6} xxs={12} key={i}>
                             <Box sx={styles.BoxContainer}>
-                                <Box component="img" src={blog.image} alt={blog.title} sx={styles.Image} />
+                                <Box component="img" src={product.image} alt={product.title} sx={styles.Image} />
                                 <Box sx={styles.Content}>
                                     <Typography variant="body1" component="p" sx={styles.Category}>
-                                        {blog.category}
+                                        {product.category}
                                     </Typography>
                                     <Typography variant="h6" component="h6" sx={styles.Title}>
-                                        {blog.title}
+                                        {product.title}
                                     </Typography>
                                     <Stack
                                         direction="row"
@@ -52,7 +52,7 @@ const SingleBlog = () => {
                                             <ClendarIcon />
                                         </Box>
                                         <Typography variant="body1" component="p" sx={styles.TimeText}>
-                                            {blog.time}
+                                            {product.time}
                                         </Typography>
                                     </Stack>
                                     <ButtonBase sx={styles.Button} onClick={handleClickOpen(i)}>
@@ -71,7 +71,7 @@ const SingleBlog = () => {
                                         }}
                                     >
                                         <Dialogs
-                                            blog={blog}
+                                            product={product}
                                             handleClose={handleClose}
                                         />
                                     </Dialog>
@@ -84,4 +84,4 @@ const SingleBlog = () => {
         </Box >
     );
 };
-export default SingleBlog;
+export default SingleProduct;

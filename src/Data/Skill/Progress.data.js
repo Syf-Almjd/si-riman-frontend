@@ -1,18 +1,18 @@
 export default [
     {
-        field: "Graphics Design",
-        progress: 70
-    },
-    {
-        field: "Ui/Ux Design",
-        progress: 80
-    },
-    {
-        field: "Web Development",
+        field: "Skincare Expertise",
         progress: 90
     },
     {
-        field: "App Development",
-        progress: 85
+        field: "Product Knowledge",
+        progress: 90
+    },
+    {
+        field: "Beauty Consultation",
+        progress: 90
+    },
+    {
+        field: "Customer Service",
+        progress: 95
     }
 ]

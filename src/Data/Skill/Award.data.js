@@ -1,17 +1,17 @@
 export default [
     {
-        title: "Project Done",
+        title: "Products sold",
         award: "150",
-        star: 0
-    },
-    {
-        title: "Satisfied Client",
-        award: "99",
         star: 5
     },
     {
-        title: "Awards Wining",
+        title: "Satisfied Client",
+        award: "100",
+        star: 5
+    },
+    {
+        title: "Members",
         award: "5",
-        star: 4.5
+        star: 5
     },
 ]

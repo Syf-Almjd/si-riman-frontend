@@ -39,8 +39,7 @@ const Portfolio = () => {
     return (
         <Container maxWidth={false} disableGutters as="section" sx={styles.Container} id="portfolio">
             <SectionHeading
-                value1="Latest Project That"
-                value2="Recently Done"
+                value1="How to start your membership plan"
                 border={false}
             />
             <TabContext value={value}>
@@ -55,10 +54,10 @@ const Portfolio = () => {
                         }}
                         sx={styles.ButtonGroup}
                     >
-                        <Tab label="Web Development" value="1" onClick={() => filterItem('web')} />
-                        <Tab label="App Development" value="2" onClick={() => filterItem('app')} />
-                        <Tab label="UI/UX" value="3" onClick={() => filterItem('ui')} />
-                        <Tab label="Graphics Design" value="4" onClick={() => filterItem('graphic')} />
+                        <Tab label="Step 1" value="1" onClick={() => filterItem('step1')} />
+                        <Tab label="Step 2" value="2" onClick={() => filterItem('step2')} />
+                        <Tab label="Step 3" value="3" onClick={() => filterItem('step3')} />
+                        <Tab label="Step 4" value="4" onClick={() => filterItem('step4')} />
                     </TabList>
                 </Box>
                 <TabPanel value="1" sx={{ pr: "0px", mt: "15px" }}>

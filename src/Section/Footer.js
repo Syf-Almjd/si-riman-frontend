@@ -14,10 +14,10 @@ const Footer = () => {
                 <Grid item md={3} sm={6}>
                     <FooterOne />
                 </Grid>
-                <Grid item md={3} sm={6} xxs={12}>
+                {/* <Grid item md={3} sm={6} xxs={12}>
                     <FooterTwo />
-                </Grid>
-                <Grid item md={3} sm={6} xxs={12}>
+                </Grid> */}
+                <Grid item md={6} sm={12} xxs={24}>
                     <FooterThree />
                 </Grid>
                 <Grid item md={3} sm={6} xxs={12}>

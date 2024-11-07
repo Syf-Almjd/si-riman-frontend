@@ -16,30 +16,27 @@ const Myself = () => {
         <Box sx={styles.Container}>
             <Box sx={{ width: { md: "35%", xxs: "100%" } }}>
                 <Typography variant="h4" component="h4" sx={styles.Title}>
-                    Let&apos;s Something <br />
-                    Know Great About Us
-                </Typography>
+                    Let&apos;s Join the Team </Typography>
                 <Typography variant="body1" component="p" className="sdjh" sx={styles.Description}>
-                    We are a group of professional software developer
-                    team that run by enthusiast for coding and design.
+                    Richard is inviting you to join his team as a professional to start gaining passive income.
                 </Typography>
                 <Box sx={{ my: "28px" }}>
                     <Stack direction="row" sx={styles.Features}>
                         <DoneIcon />
                         <Typography variant="body1" component="p">
-                            100% client satisfaction
+                            100% User satisfaction
                         </Typography>
                     </Stack>
                     <Stack direction="row" sx={styles.Features}>
                         <DoneIcon />
                         <Typography variant="body1" component="p">
-                            Quality Service
+                            Easy and Simple Proccess
                         </Typography>
                     </Stack>
                     <Stack direction="row" sx={styles.Features}>
                         <DoneIcon />
                         <Typography variant="body1" component="p">
-                            Lifetime aftersales supports
+                             Supports & Consultations
                         </Typography>
                     </Stack>
                 </Box>
@@ -50,7 +47,7 @@ const Myself = () => {
                     duration={500}
                 >
                     <ButtonBase sx={styles.Button}>
-                        Contact Us
+                        Join Richard Team
                         <ArrowForwardTwoToneIcon />
                     </ButtonBase>
                 </Link>

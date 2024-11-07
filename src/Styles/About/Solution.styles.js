@@ -1,3 +1,6 @@
+import { Height } from "@mui/icons-material";
+import { height } from "@mui/system";
+
 const styles = {
     Title: {
         mt: "20px",
@@ -8,12 +11,14 @@ const styles = {
         fontSize: "15px"
     },
     Image: {
+        borderRadius: "10%",
         width: {
-            md: "65%",
-            smd: "60%",
-            lsm: "50%",
-            sm: "60%",
-            xxs: "65%"
+            md: "75%",
+            smd: "70%",
+            lsm: "60%",
+            sm: "70%",
+            xxs: "75%"
+
         }
     }
 };
