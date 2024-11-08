@@ -5,7 +5,7 @@ This is the front-end of smart insights riman
 - **Download:** Start by downloading the code.
 - **Install Dependencies:** Run `npm i` to install the necessary dependencies.
 - **Launch:** Launch your development environment with `npm run dev`.
-- **Access:** Simply open your web browser and navigate to `localhost:3000`.
+- **Access:** Simply open your web browser and navigate to `localhost:8080`.
 
 ## Key features
 - Created with NextJS and Material UI

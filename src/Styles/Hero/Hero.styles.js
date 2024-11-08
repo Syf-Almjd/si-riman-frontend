@@ -34,18 +34,21 @@ const styles = {
         borderRadius: "5%",
         right: {
             lg: "10%",
-            xxs: "0%"
+            xxs: "5%"
         },
         bottom: "15%",
+        top: {
+            xxs: "12%"
+        },
         width: {
             lg: "38%",
             md: "50%",
             smd: "45%",
-            xxs: "0%"
+            xxs: "30%"
         },
         display: {
-            smd: "unset",
-            xxs: "none"
+            // smd: "unset",
+            // xxs: "none"
         }
     },
     Paticle: {
