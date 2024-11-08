@@ -1,3 +1,12 @@
+import { keyframes } from "@emotion/react"; // Import keyframes from emotion
+
+const bounce = keyframes`
+    0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+    40% { transform: translateY(-15px); }
+    60% { transform: translateY(-10px); }
+`;
+
+
 const styles = {
     Container: {
         width: {
@@ -5,7 +14,8 @@ const styles = {
             xxs: "100%"
         },
         position: "relative",
-        zIndex: "1"
+        zIndex: "1",
+
     },
     Title: {
         fontWeight: 800,
@@ -41,13 +51,15 @@ const styles = {
         }
     },
     Button: {
-        backgroundColor: "primary.light",
+        animation: `${bounce} 2s ease-out`,
+        backgroundColor: "primary.main",
         p: "14px 25px",
         mt: "15px",
+        color: "white",
         borderRadius: "5px",
         fontSize: "14px",
         fontWeight: 500,
-        transition: "0.3s ease",
+        transition: "0.7s ease",
         svg: {
             color: "background.default",
             fontSize: "17px",
@@ -55,7 +67,9 @@ const styles = {
             mb: "-1px"
         },
         "&:hover": {
-            backgroundColor: "primary.main",
+        fontWeight: 800,
+
+            backgroundColor: "primary.dark",
             color: "background.default"
         }
     }

@@ -1,5 +1,5 @@
 import { Box, Container, Typography } from "@mui/material";
-
+import Link from "next/link";
 //SectionHeading
 import SectionHeading from "Utilis/SectionHeading";
 
@@ -15,9 +15,13 @@ const Product = () => {
                 value1="Health and Beauty"
                 border={false}
             />
-            <Typography sx={{ cursor: "pointer", color: "primary.main", "&:hover": { color: "primary.dark" } }}>
-                See More
-            </Typography>
+           <Link href="/search" passHref>
+  <Typography
+    sx={{ cursor: "pointer", color: "primary.main", "&:hover": { color: "primary.dark" } }}
+  >
+    See More
+  </Typography>
+</Link>
           </Box>
             <SingleProduct />
             <Company />

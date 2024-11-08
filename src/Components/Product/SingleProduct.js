@@ -18,16 +18,16 @@ const SingleProduct = () => {
     const [open, setOpen] = useState(false);
     const handleClickOpen = (index) => () => {
         setOpen(index);
-        const header = document.querySelector('header');
-        const scrollBarWidth = window.innerWidth - document.documentElement.clientWidth;
-        header.style.paddingRight = `${scrollBarWidth}px`;
+        // const header = document.querySelector('header');
+        // const scrollBarWidth = window.innerWidth - document.documentElement.clientWidth;
+        // header.style.paddingRight = `${scrollBarWidth}px`;
     };
     const handleClose = () => {
         setOpen(false);
     };
     const RemovePadding = () => {
-        const header = document.querySelector('header');
-        header.style.paddingRight = "0px";
+        // const header = document.querySelector('header');
+        // header.style.paddingRight = "0px";
     }
     return (
         <Box sx={{ mt: "4rem", mb: "5.5em" }}>

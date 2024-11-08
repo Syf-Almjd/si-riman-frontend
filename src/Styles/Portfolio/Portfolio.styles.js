@@ -1,11 +1,12 @@
 const styles = {
+    
     Container: {
         overflow: "hidden",
         py: "5em",
         position: "relative",
         "&:after": {
             content: '""',
-            background: theme => theme.palette.primary.WorkGradient,
+            // background: theme => theme.palette.primary.WorkGradient,
             width: "100%",
             height: "50em",
             padding: " ",

@@ -7,6 +7,7 @@ const styles = {
     Image: {
         borderRadius: "30px 30px 0 0",
         width: "100%"
+        
     },
     Content: {
         p: "2em",
