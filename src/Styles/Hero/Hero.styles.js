@@ -56,9 +56,9 @@ const styles = {
             xxs: "12%"
         },
         width: {
-            lg: "38%",
-            md: "50%",
-            smd: "45%",
+            lg: "28%",
+            md: "40%",
+            smd: "35%",
             xxs: "30%"
         },
         animation: `${slideInFromRight} 1s ease-out` // Slides in from the right on load
